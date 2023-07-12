@@ -1,0 +1,8 @@
+"name","value"
+"odf.ocr.s3.bucket","doc-upload"
+"odf.ocr.cache.enabled","true"
+"trained.model.id","document_xml_link_7a18d09e-bd54-454f-bf74-0600ae416b0b"
+"field.to.extract","name"
+"automation.academy.id","36776"
+"hrm.credentials.alias","pz.hrm.credentials"
+

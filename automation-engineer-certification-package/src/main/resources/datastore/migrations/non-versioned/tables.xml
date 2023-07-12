@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog ../dbchangelog-3.6.xsd">
+
+    <changeSet author="ODF2 archetype" id="ae_certification_v0_0_3_0006">
+        <createTable tableName="uc_ae_certification_entity">
+            <column defaultValueComputed="NEWID()" name="entity_id" type="NVARCHAR(36)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="bp_run_id" type="NVARCHAR(36)"/>
+            <column name="name" type="NVARCHAR(72)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
